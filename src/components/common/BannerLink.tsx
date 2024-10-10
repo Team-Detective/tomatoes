@@ -1,11 +1,6 @@
 import Link from 'next/link';
 
-interface BannerLinkProps {
-  text: string;
-  url: string;
-}
-
-export default function BannerLink({ text, url }: BannerLinkProps) {
+export default function BannerLink({ url }: { url: string }) {
   return (
     <Link
       href={url}
@@ -16,7 +11,7 @@ export default function BannerLink({ text, url }: BannerLinkProps) {
         lg:w-40 lg:h-[52px] lg:text-xl
       "
     >
-      {text}
+      자세히보기
     </Link>
   );
 }
