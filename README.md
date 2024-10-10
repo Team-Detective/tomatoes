@@ -35,4 +35,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-리드미 파일을 수정합니다!
+리드미 파일을 수정합니다! 리드미 파일을 수정합니다!22
