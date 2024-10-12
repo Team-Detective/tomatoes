@@ -9,7 +9,8 @@ export default function Home() {
         {/* <BannerLink url="https://google.com" />
         <BannerLink url="https://google.com" />
         <BannerLink url="https://google.com" /> */}
-        <SearchBar />
+        <SearchBar placeholder="나는야 춤을 출거야🎵" />
+        <SearchBar placeholder="사과가 되지말고 토마토가 돼라" />
       </div>
     </>
   );
