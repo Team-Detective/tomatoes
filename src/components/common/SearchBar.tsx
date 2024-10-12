@@ -30,13 +30,13 @@ export default function SearchBar({ placeholder }: { placeholder: string }) {
             />
           </div>
           {/* 검색창 */}
-          <div className="flex-grow flex justify-between items-center">
+          <div className="flex-grow flex items-center">
             <input
               type="text"
               value={keyword}
               onChange={onKeywordChangeHandler}
               placeholder={placeholder}
-              className="text-[#4e4e4e] text-sm bg-transparent outline-none"
+              className="w-full pr-2 text-[#4e4e4e] text-sm bg-transparent outline-none"
             />
             {/* 버튼 */}
             <button type="submit">
