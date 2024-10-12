@@ -23,6 +23,8 @@ const config: Config = {
         dDayTextGreen: '#4A734E',
         dDayTextGray: '#7A7A7A',
         searchBorder: '#E24444',
+        mainBlack: '#222222',
+        textGray: '#4E4E4E',
       },
     },
   },
