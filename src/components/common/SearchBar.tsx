@@ -43,7 +43,7 @@ export default function SearchBar() {
             onClick={handleSearch}
             className="w-6 h-6 flex justify-center items-center"
           >
-            <FaSearch size={24} color="#FF6347" />
+            <FaSearch className="text-searchBorder text-2xl" />
           </button>
         </div>
       </div>
