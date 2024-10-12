@@ -13,6 +13,10 @@ export default function SearchBar({ placeholder }: { placeholder: string }) {
 
   const onKeywordSearchHandler = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    if (keyword.length < 1) {
+      alert('검색어를 입력해주세요');
+      return;
+    }
     alert('나는 토마토야');
   };
 
@@ -37,6 +41,7 @@ export default function SearchBar({ placeholder }: { placeholder: string }) {
               onChange={onKeywordChangeHandler}
               placeholder={placeholder}
               className="w-full pr-2 text-[#4e4e4e] text-sm bg-transparent outline-none"
+              autoFocus
             />
             {/* 버튼 */}
             <button type="submit">
