@@ -8,7 +8,7 @@
   }
 
   .header-navigation-container {
-    @apply flex flex-1 items-center fixed md:static bottom-4 left-1/2 transform -translate-x-1/2 md:transform-none;
+    @apply flex flex-1 items-center fixed md:static bottom-[30px] left-1/2 transform -translate-x-1/2 md:transform-none;
   }
 
   .header-navigation-list {
