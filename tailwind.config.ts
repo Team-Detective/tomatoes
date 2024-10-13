@@ -24,6 +24,9 @@ const config: Config = {
         dDayTextGray: '#7A7A7A',
         searchBorder: '#E24444',
       },
+      fontFamily: {
+        pretendard: ['Pretendard', 'sans-serif'],
+      },
     },
   },
   plugins: [],
