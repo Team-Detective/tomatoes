@@ -7,9 +7,9 @@ export default function Footer() {
     <footer className="bg-footerBackground">
       
       {/* 모바일 섹션 */}
-      <div className="flex flex-col items-center gap-4 md:hidden px-6 py-8">
+      <div className="flex flex-col items-center gap-4 md:hidden px-8 py-8">
         
-        {/* Footer 전용 버튼 */}
+        {/* 모바일 Footer 전용 버튼 */}
         <div className="relative w-[100px] h-8 bg-white rounded-[5px] shadow flex items-center">
           <Link href="/about" className="absolute inset-0 flex items-center">
             <span className="text-[10px] font-medium pl-[9px]">토마토들 소개 →</span>
@@ -17,13 +17,13 @@ export default function Footer() {
           <div className="absolute right-0 bottom-0 flex items-end">
             <Image
               src="/assets/common/MO_button_t.svg"
-              alt="토마토 footer 이미지"
+              alt="토마토들 소개 버튼 토마토 이미지"
               width={24}
               height={24}
             />
           </div>
         </div>
-
+        {/* 모바일 Footer 하단 섹션*/}
         <div className="flex flex-col items-center gap-2">
           <div className="flex gap-4">
             <Link href="/" className="underline text-xs">공지사항</Link>
@@ -38,6 +38,14 @@ export default function Footer() {
         </div>
         <div className="text-xs text-center">
           Copyright ©Tomato.DLE. All Rights Reserved.
+        </div>
+        <div className="mt-2">
+          <Image
+            src="/assets/common/MO_logo_text.svg"
+            alt="토마토들 로고 모바일"
+            width={78}
+            height={18}
+          />
         </div>
       </div>
 
@@ -68,8 +76,8 @@ export default function Footer() {
             <div className="flex flex-col justify-start items-start gap-6">
               <div>고객문의</div>
               <div className="h-[120px] flex flex-col justify-start items-start gap-6">
-                <Link href="/notices" className="font-semibold">공지사항</Link>
-                <Link href="/faq" className="font-semibold">FAQ</Link>
+                <Link href="/" className="font-semibold">공지사항</Link>
+                <Link href="/" className="font-semibold">FAQ</Link>
                 <Link href="/" className="font-semibold">1:1 문의</Link>
               </div>
             </div>
@@ -89,9 +97,9 @@ export default function Footer() {
               <Link href="https://www.instagram.com" target="_blank">
                 <Image
                   src="/assets/common/PC_Instagram.svg"
-                  alt="Instagram"
-                  width={24}
-                  height={24}
+                  alt="Instagram 아이콘"
+                  width={31}
+                  height={32}
                 />
               </Link>
             </div>
@@ -107,9 +115,9 @@ export default function Footer() {
             <div>대표: 고경표</div>
           </div>
           <div className="flex justify-start items-center gap-10">
-            <Link href="/terms" className="underline">이용약관</Link>
-            <Link href="/privacy-policy" className="underline">개인정보처리방침</Link>
-            <Link href="/legal" className="underline">책임한계와 법적고지</Link>
+            <Link href="/" className="underline">이용약관</Link>
+            <Link href="/" className="underline">개인정보처리방침</Link>
+            <Link href="/" className="underline">책임한계와 법적고지</Link>
           </div>
         </div>
       </div>
