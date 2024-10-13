@@ -11,9 +11,9 @@ export default function Home() {
         <BannerLink url="https://google.com" />
       </div>
       <div className='flex gap-2 mb-4'>
-        <Tag type="hot" />
-        <Tag type="best" />
-        <Tag type="new" />
+        <Tag type="hot" label="HOT"/>
+        <Tag type="best" label="BEST"/>
+        <Tag type="new" label="NEW"/>
       </div>
     </>
   );
