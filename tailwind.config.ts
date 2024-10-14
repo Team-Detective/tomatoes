@@ -11,6 +11,9 @@ const config: Config = {
       colors: {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
+        // sub: 일반적으로 배경, 텍스트, 섹션 구분 등에 사용. 눈에 덜 띄며 시각적 안정성
+        // point: 주로 강조하고 싶은 요소나 중요한 요소에 사용. 버튼, 강조된 텍스트 등
+        // 끝에 붙는 숫자: 밝기 또는 채도를 의미하며, 숫자가 커질수록 진하고 어두운 색상.
         'main-beige': '#F5F1DE',
         'point-red-100': '#F9DADA',
         'point-red-500': '#E24444',
