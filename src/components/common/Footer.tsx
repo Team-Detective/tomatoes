@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Footer() {
   return (
-    <footer className="bg-footerBackground">
+    <footer className="bg-main-beige">
       {/* 모바일 섹션 */}
       <div className="flex flex-col items-center gap-4 md:hidden px-8 py-8">
         {/* 모바일 Footer 전용 버튼 */}
