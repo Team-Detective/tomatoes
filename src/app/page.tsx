@@ -1,6 +1,3 @@
-import BannerLink from '@/components/common/BannerLink';
-import SearchBar from '@/components/common/SearchBar';
-
 export default function Home() {
   return (
     <>
