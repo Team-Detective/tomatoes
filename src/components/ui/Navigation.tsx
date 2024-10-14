@@ -21,7 +21,7 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className="header-navigation-container">
+    <nav className="header-navigation-container z-50">
       <ul className="header-navigation-list">
         {navItems.map((item) => {
           const isActive = pathname === item.route;
@@ -30,7 +30,9 @@ export default function Navigation() {
         <li className="hidden md:block">
           <Link
             href="/cs"
-            className={`header-link-item ${pathname === '/cs' ? 'header-active-link' : 'header-inactive-link'}`}
+            className={`header-link-item ${
+              pathname === '/cs' ? 'header-active-link' : 'header-inactive-link'
+            }`}
           >
             공고등록/문의
           </Link>

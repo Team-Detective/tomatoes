@@ -14,7 +14,7 @@
   }
 
   .header-navigation-list {
-    @apply flex gap-6 lg:gap-10 bg-white h-full px-8 md:px-0 py-4 md:py-0 whitespace-nowrap shadow md:shadow-none border md:border-none border-dDayGray rounded-full md:rounded-none items-center;
+    @apply flex gap-6 lg:gap-10 bg-white h-full px-8 md:px-0 py-4 md:py-0 whitespace-nowrap shadow md:shadow-none border md:border-none border-sub-gray-100 rounded-full md:rounded-none items-center;
   }
 
   .header-nav-item {
@@ -22,15 +22,15 @@
   }
 
   .header-active {
-    @apply text-mainBlack border-dDayTextGreen;
+    @apply text-sub-gray-500 border-point-green-500;
   }
 
   .header-inactive {
-    @apply text-gray-200 border-transparent;
+    @apply text-sub-gray-200 border-transparent;
   }
 
   .header-has-new-content {
-    @apply absolute top-1 -right-2 inline-block w-[5px] h-[5px] bg-red-500 rounded-full;
+    @apply absolute top-1 -right-2 inline-block w-[5px] h-[5px] bg-point-red-500 rounded-full;
   }
 
   .header-link-item {
@@ -38,10 +38,10 @@
   }
 
   .header-active-link {
-    @apply bg-dDayTextYellow text-mainBlack;
+    @apply bg-sub-yellow-500 text-sub-gray-500;
   }
 
   .header-inactive-link {
-    @apply bg-footerBackground text-textGray;
+    @apply bg-sub-yellow-100 text-sub-gray-400;
   }
 }
